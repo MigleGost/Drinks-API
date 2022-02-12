@@ -1,0 +1,27 @@
+{
+  "name": "Drinks-API",
+  "version": "1.0.0",
+  "description": "Drinks-API provides REST access to Cocktail Drinks database. It is intended primarily to assist application developers wishing to incorporate cocktail recipes and data into their applications or websites.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MigleGost/Drinks-API.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MigleGost/Drinks-API/issues"
+  },
+  "homepage": "https://github.com/MigleGost/Drinks-API#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
